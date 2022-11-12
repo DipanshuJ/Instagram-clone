@@ -1,0 +1,22 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "Instagram Clone Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0",
+    "mongoose": "^5.10.17",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
