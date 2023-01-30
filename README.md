@@ -6,7 +6,7 @@ Make sure to follow all these steps exactly as explained below. Do not miss any 
 
 ### 1) Clone the repository
 ```
-git clone https://github.com/mayankaggarwal098/Instagram_Clone.git
+git clone https://github.com/DipanshuJ/Instagram-clone.git
 ```
 
 ### 2) Change directory
